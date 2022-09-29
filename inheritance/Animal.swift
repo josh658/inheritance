@@ -38,3 +38,9 @@ class Animal{
         print("\(typeOfAnimal) swam")
     }
 }
+
+class Bear: Animal{
+    init(){
+        super.init(typeOfAnimal: "Bear", numberOfLegs: 4, noctunrnal: false, hasTail: true, diet: [.omnivor])
+    }
+}
