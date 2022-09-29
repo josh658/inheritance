@@ -35,4 +35,4 @@ func isFlying(flier: Flies){
 
 isFlying(flier: bee)
 //isFlying(flier: ant)
-isFlying(animal: duck)
+isFlying(flier: duck)
